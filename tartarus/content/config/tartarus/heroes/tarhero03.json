@@ -1,0 +1,63 @@
+{
+	"tarhero03" :
+	{
+    "class": "taHeroA",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Nzistov",
+			"biography" : "The Gelugons have a very strict internal hierarchy. Nzistov was the oldest gelugon, who, among other things, had great magical power. Therefore, he was able to become the most important among these insect-like demons. The Gelugons under the command of Nzistov fight tirelessly to earn respect in the eyes of the elder.",
+			"specialty" :
+			{
+				"description" : "{Gelugons}\r\n\r\nIncreases the Attack and Defense skills of any Gelugons or Supreme Gelugons he commands for each level attainded after 6th level.",
+				"tooltip" : "Spell bonus: Blind",
+				"name" : "Gelugons"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero03/skill3.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero03/skills3.bmp",
+			"large" : "tartarus/heroes/tarhero03/tarH3.bmp",
+			"small" : "tartarus/heroes/tarhero03/tarH3S.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "tartarc5",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "demonicBlood"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+			"specialty" : {
+			"creature" : "tartarca"
+		}
+	}
+}
+

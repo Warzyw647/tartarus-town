@@ -1,0 +1,69 @@
+{
+	"tarhero05" :
+	{
+    "class": "taHeroA",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Allar",
+			"biography" : "Allar was a very cunning and greedy magician. He was expelled in disgrace from Bracada when they learned that he was plotting against Gavin Magnus himself. Allar was not confused and believed that the Freegans could become excellent allies in his campaign for power and wealth.",
+			"specialty" :
+			{
+				"description" : "{+1 Gem}\r\n\r\nProvide 1 gem per day to your kingdom.",
+				"tooltip" : "Spell bonus: Blind",
+				"name" : "+1 Gem"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero05/skill5.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero05/skills5.bmp",
+			"large" : "tartarus/heroes/tarhero05/tarH5.bmp",
+			"small" : "tartarus/heroes/tarhero05/tarH5S.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "tartarc5",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "demonicBlood"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+		"bonuses" : {
+			"gold" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+		}
+	}
+	}
+}
+

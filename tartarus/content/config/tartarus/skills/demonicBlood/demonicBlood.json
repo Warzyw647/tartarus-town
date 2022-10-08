@@ -1,0 +1,67 @@
+{
+	"demonicBlood" : {
+		"name" : "Demonic Blood",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"base" : {
+			"effects" : {
+			"main":{
+				"subtype" : "spell.tartskill1",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 255,
+				"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "tartarus/skills/demonicBlood/taSkillBS",
+				"medium" : "tartarus/skills/demonicBlood/taSkillBM",
+				"large" : "tartarus/skills/demonicBlood/taSkillBL"
+			},
+			"description" : "{Basic Demonic Blood}\n\nBasic Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 1 during battle.",
+			"effects" : {
+				"main":{
+				"subtype" : "spell.tartskill1",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 255,
+				"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "tartarus/skills/demonicBlood/taSkillAS",
+				"medium" : "tartarus/skills/demonicBlood/taSkillAM",
+				"large" : "tartarus/skills/demonicBlood/taSkillAL"
+			},
+			"description" : "{Advanced Demonic Blood}\n\nBasic Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 2,speed by 1 during battle.",
+			"effects" : {
+				"main":{
+				"subtype" : "spell.tartskill2",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 255,
+				"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "tartarus/skills/demonicBlood/taSkillES",
+				"medium" : "tartarus/skills/demonicBlood/taSkillEM",
+				"large" : "tartarus/skills/demonicBlood/taSkillEL"
+			},
+			"description" : "{Expert Demonic Blood}\n\nBasic Demonic Blood increases all inferno and tartarus creatures' attack and defense points by 4,speed by 2 during battle.",
+			"effects" : {
+				"main":{
+				"subtype" : "spell.tartskill3",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 255,
+				"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "tartarusLevel1" : {
+                "name" : "Ice Cache",
+                "creatures" : [[ "tartarc1" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA1",
+                        "mask" : ["VVV","VBV","VAB" ]
+                    }
+                }
+            },
+            "tartarusLevel2" : {
+                "name" : "Frozen Tower",
+                "creatures" : [[ "tartarc3" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA2",
+                        "mask" : [ "VVV", "VVV", "VAB" ]
+                    }
+                }
+            },
+            "tartarusLevel3" : {
+                "name" : "Cliff of Fury",
+                "creatures" : [[ "tartarc5" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "tartarus/map/dwellings/AVGTA3",
+                        "mask" : ["VVV","VBV","VAB" ]
+                    }
+                }
+            },
+            "tartarusLevel4" : {
+                "name" : "Ice Hole",
+                "creatures" : [[ "tartarc7" ]],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA4",
+                        "mask" : ["VVV","VVV","BAB" ]
+                    }
+                }
+            },
+            "tartarusLevel5" : {
+                "name" : "Crystal Cobweb",
+                "creatures" : [[ "tartarc9" ]],
+                "guards" : [
+                    { "amount" : 9, "type" : "tartarc9" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA5",
+                        "mask" : [ "VVV","VVV","VAB" ]
+                    }
+                }
+            },
+            "tartarusLevel6" : {
+                "name" : "Arctic Altar",
+                "creatures" : [[ "tartarca" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "tartarca" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA6",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "tartarusLevel7" : {
+                "name" : "Heart of Coldness",
+                "creatures" : [[ "tartarcc" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "tartarcc" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA7",
+                        "mask" : ["VVV","VVV","VAB" ]
+                    }
+                }
+            }
+        }       
+    }
+}

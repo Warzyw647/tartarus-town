@@ -1,0 +1,69 @@
+{
+	"tarhero02" :
+	{
+    "class": "taHeroA",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Breldzur",
+			"biography" : "Breldzur is one of the most respected freegans. He is famous for the fact that he is able to make a work of art from the most unsightly ice. Even fellow Krigans admire Breldzur's talent. In war, this demon has a huge amount of working material, so that he can do what he loves without stopping.",
+			"specialty" :
+			{
+				"description" : "{Demonic Blood}\r\n\r\nCast an extra basic demonic blood at the beginning of battle.",
+				"tooltip" : "Spell bonus: Blind",
+				"name" : "Demonic Blood"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero02/skill2.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero02/skills2.bmp",
+			"large" : "tartarus/heroes/tarhero02/tarH2.bmp",
+			"small" : "tartarus/heroes/tarhero02/tarH2S.bmp"
+		},
+		
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 40,
+				"min" : 30
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 12,
+				"min" : 8
+			},
+			{
+				"creature" : "tartarc5",
+				"max" : 10,
+				"min" : 5
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "demonicBlood"
+			}
+		],
+		
+		"specialty": 
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "OPENING_BATTLE_SPELL",
+						"subtype": "spell.tartskill1",
+						"val" : 255,
+						"valueType" : "BASE_NUMBER"
+					}
+				]
+			}
+		]
+	}
+}
+

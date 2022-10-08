@@ -1,0 +1,67 @@
+{
+	"tarhero10" :
+	{
+    "class": "taHeroM",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Raldaxa",
+			"biography" : "One of the first freegans to find and tame ice demons was Raldaxa. She alone knows where the demons found such creatures. Raldaxa has studied these creatures very well and is able to motivate them better than other freegans. She also wrote an extensive work on the selection of ice demons and their relationship with other species, which she is very proud of.",
+			"specialty" :
+			{
+				"description" : "{Frost Creepers}\r\n\r\nIncreases the Attack and Defense skills of any Frost Creepers or Frost Horrors she commands for each level attainded after 4th level.",
+				"tooltip" : "Spell bonus: Blind",
+				"name" : "Frost Creepers"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero10/skill10.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero10/skills10.bmp",
+			"large" : "tartarus/heroes/tarhero10/tarH10.bmp",
+			"small" : "tartarus/heroes/tarhero10/tarH10S.bmp"
+		},
+		
+		"spellbook" :
+		[
+			"cure"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "tartarc7",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "tartarc7"
+		}
+	}
+}
+

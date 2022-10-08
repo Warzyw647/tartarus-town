@@ -1,0 +1,64 @@
+{
+	"tarhero01" :
+	{
+    "class": "taHeroA",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Tarox",
+			"biography" : "Young, by the standards of freegan, demon Tarox has a very carefree disposition. First of all, he cares about his own prosperity and idle pleasures. It is not surprising that the small younger demons are drawn to Tarox and form his main retinue.",
+			"specialty" :
+			{
+				"description" : "{Ice Spawn}\r\n\r\nIncreases the Attack and Defense skills of any Ice Spawns or Quasits he commands for each level attainded after 1st level.",
+				"tooltip" : "Spell bonus: Blind",
+				"name" : "Ice Spawns"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero01/skill1.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero01/skills1.bmp",
+			"large" : "tartarus/heroes/tarhero01/tarH1.bmp",
+			"small" : "tartarus/heroes/tarhero01/tarH1S.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc1",
+				"max" : 25,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc1",
+				"max" : 25,
+				"min" : 20
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "demonicBlood"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "tartarc1"
+		}
+	}
+}
+
+
