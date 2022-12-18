@@ -10,6 +10,7 @@
  "min" : 20
     },
     "faction": "tartarus",
+	"doubleWide" : true,
     "aiValue": 1438,
     "attack": 18,
     "cost": {

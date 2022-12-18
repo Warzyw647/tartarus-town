@@ -3,9 +3,10 @@
 	"description" : "New town made by Turbanellos(Ben YAN), Tartarus is a new town for ice demons. Released in January 2022.",
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.01",
+	"version" : "1.02",
 	"changelog" :
 	{
+		"1.02"   : [ "New lvl6 creatures graphic" ],
 		"1.01"   : [ "Fixes, added Arrow Towers icons" ],
 		"1.00"   : [ "Initial release" ]
 	},
