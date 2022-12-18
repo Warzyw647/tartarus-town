@@ -683,6 +683,8 @@
 			"primaryResource" : "crystal",
 			"siege" : {
 				"shooter" : "tartarc6",
+				"towerIconSmall" : "tartarus/icons/arrowTowerS",
+				"towerIconLarge" : "tartarus/icons/arrowTowerL",
 				"imagePrefix" : "tartarus/siege/SGIN",
 				"gate" :
 				{

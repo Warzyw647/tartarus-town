@@ -49,7 +49,7 @@
 				"battleEffects":{
 					"summon":{
 						"exclusive":false,
-						"id":"tartarus:tartarca",
+						"id":"tartarus-town:tartarca",
 						"permanent":false,
 						"type":"core:summon"
 					}
