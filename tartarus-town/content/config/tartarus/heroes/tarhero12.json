@@ -1,0 +1,67 @@
+{
+	"tarhero12" :
+	{
+    "class": "taHeroM",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Atianna",
+			"biography" : "Atianna hates her sister Moridda with all her heart. After all, her sister took her place as the leader of the furies. Now Atianna is forced to put up with the position of Moridda's right hand and hatch a plan for revenge. Although she is not as skillful a warrior as her sister, she knows a lot about tactics and has an impressive supply of jewelry that she uses for bribery.",
+			"specialty" :
+			{
+				"description" : "{Arachnids}\r\n\r\nIncreases the Attack and Defense skills of any Arachnids or Crystal Arachnids she commands for each level attainded after 5th level.",
+				"tooltip" : "Creature bonus: Arachnids",
+				"name" : "Arachnids"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero12/skill12.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero12/skills12.bmp",
+			"large" : "tartarus/heroes/tarhero12/tarH12.bmp",
+			"small" : "tartarus/heroes/tarhero12/tarH12S.bmp"
+		},
+		
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "tartarc5",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "tartarc9"
+		}
+	}
+}
+

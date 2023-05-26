@@ -1,0 +1,124 @@
+{
+  "tartarc2": {
+    "name": {
+      "plural": "Quasits",
+      "singular": "Quasit"
+    },
+    "advMapAmount": {
+ "max" : 30,
+ "min" : 20
+    },
+    "faction": "tartarus",
+    "aiValue": 107,
+    "attack": 5,
+    "cost": {
+      "gold": 70
+    },
+    "damage": {
+ "max" : 3,
+ "min" : 1
+    },
+    "defense": 4,
+    "fightValue": 118,
+    "graphics": {
+      "animation": "tartarus/battle/creatures/Tar1up.def",
+      "map": "tartarus/map/creatures/AVWTARU1.def",
+      "iconSmall": "tartarus/iconsSmall/creatures/Tar1uiconS.bmp",
+      "iconLarge": "tartarus/iconsBig/creatures/T1uicon.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "growth": 16,
+    "hitPoints": 4,
+    "horde": 8,
+    "level": 1,
+    "sound": {
+      "attack": "FMLRATTK.wav",
+			"defend": "FMLRDFND.wav",
+			"killed": "FMLRKILL.wav",
+			"move": "FMLRMOVE.wav",
+			"wince": "FMLRWNCE.wav"
+    },
+    "speed": 7,
+    "abilities": {
+	"canFly": {
+        "type": "FLYING"
+      },
+	  "caster": {
+        "type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
+				"val" : 20
+      }
+      },
+    "stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 29 //"creature.masterGremlin"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 51 //"spell.fortune"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
+			},
+			{	
+				"bonus" :
+				{
+					"type" : "FLYING"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
+    }
+  }	
+

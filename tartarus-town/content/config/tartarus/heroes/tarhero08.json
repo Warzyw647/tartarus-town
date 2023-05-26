@@ -1,0 +1,62 @@
+{
+	"tarhero08" :
+	{
+    "class": "taHeroA",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Shagreksa",
+			"biography" : "Shagreksa is proud of her invention. She learned how to make ice shells for ballistas that explode on impact. The rest of the freegans underestimate her branded weapons, but Shagreksa thinks otherwise, since she herself tested the ice ballista on Erathian soldiers and was satisfied with her offspring.",
+			"specialty" :
+			{
+				"description" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of Ballista for each level attainded after 4th level.",
+				"tooltip" : "Creature bonus: ballista",
+				"name" : "Ballista"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero14/skill14.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero14/skills14.bmp",
+			"large" : "tartarus/heroes/tarhero14/tarH14.bmp",
+			"small" : "tartarus/heroes/tarhero14/tarH14S.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "tartarc5",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "demonicBlood"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		"specialty" : {
+			"creature" : "ballista"
+		}
+	}
+}
+

@@ -1,0 +1,63 @@
+{
+	"tarhero07" :
+	{
+    "class": "taHeroA",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Coldron",
+			"biography" : "It is said that once it was an elf thief. But now it is a unique intelligent ice golem obtained during a magical experiment. Coldron is able to speak and make decisions on his own, but he remembers nothing about his past life and is therefore immensely devoted to freegans.",
+			"specialty" :
+			{
+				"description" : "{Ice Golems}\r\n\r\nIncreases the Attack and Defense skills of any Ice Golems or Frost Golems he commands for each level attainded after 2th level.",
+				"tooltip" : "Creature bonus: Ice Golems",
+				"name" : "Ice Golems"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero07/skill7.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero07/skills7.bmp",
+			"large" : "tartarus/heroes/tarhero07/tarH7.bmp",
+			"small" : "tartarus/heroes/tarhero07/tarH7S.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc3",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "demonicBlood"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "tartarc3"
+		}
+	}
+}
+

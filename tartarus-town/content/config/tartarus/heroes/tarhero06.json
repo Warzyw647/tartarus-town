@@ -1,0 +1,71 @@
+{
+	"tarhero06" :
+	{
+    "class": "taHeroA",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Tasabu",
+			"biography" : "The brave northern warrior Tasabu once sent his troops to storm the Freegan citadels. As a result, his army was defeated, and the barbarian himself was captured. The demons processed Tasab's mind a bit and since then he has served them faithfully, helping them fight in unusual conditions for freegans.",
+			"specialty" :
+			{
+				"description" : "{Logistics}\r\n\r\nGive 5% extra bonus per level to Logistics skill.",
+				"tooltip" : "Skill bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+
+		"images" :
+		{
+			"specialtyLarge" : "tartarus/heroes/tarhero06/skill6.bmp",
+			"specialtySmall" : "tartarus/heroes/tarhero06/skills6.bmp",
+			"large" : "tartarus/heroes/tarhero06/tarH6.bmp",
+			"small" : "tartarus/heroes/tarhero06/tarH6S.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "tartarc1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tartarc3",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "tartarc5",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "demonicBlood"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : 1,
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

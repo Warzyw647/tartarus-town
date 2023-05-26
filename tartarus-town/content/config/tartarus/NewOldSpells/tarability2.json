@@ -1,0 +1,152 @@
+{
+	"tarAbility2":
+	{
+		"type": "ability", 
+		"name": "Bloody Fury",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+		"animation":{
+			"affect":[{"defName":"NewOldSpells/C3BloodyMana.def"}]
+		},
+ 
+		"flags" : {"positive": true},
+ 
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute"
+			}
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "NewOldSpells/Useless1.bmp",
+			"iconScroll": "NewOldSpells/Useless2.bmp",
+			"iconScenarioBonus": "NewOldSpells/Useless3.bmp",
+			"iconEffect": "NewOldSpells/BloodyMana.bmp"
+		},
+
+		"sounds":
+		{
+			"cast": "REMOVEOB"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"aiValue": 12,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
+	 
+				"cost": 0,
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : 6,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
+	 
+				"cost": 0,
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : 6,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
+	 
+				"cost": 0,
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : 6,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Bloody Fury}\r\n\r\nIncrease attack by 6 but reduce defense by 5.",
+	 
+				"cost": 0,
+	 
+				"effects" : 
+				{
+					"attack" : {
+						"val" : 6,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+		}
+	}
+ 
+}
