@@ -3,9 +3,10 @@
 	"description" : "New town made by Turbanellos(Ben YAN), Tartarus is a new town for ice demons. Released in January 2022.",
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.03",
+	"version" : "1.04",
 	"changelog" :
 	{
+		"1.04"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.03"   : [ "Update to vcmi-1.2" ],
 		"1.02"   : [ "New lvl6 creatures graphic" ],
 		"1.01"   : [ "Fixes, added Arrow Towers icons" ],
@@ -15,7 +16,13 @@
 	{
 		"min" : "1.2.0"
 	},
-	"modType" : "Town",	
+	"modType" : "Town",
+    	"chinese" : {
+		"name" : "冰狱",
+		"translations" : [
+			"translation/tartarus/chinese.json"
+		]
+	},
 	"depends" :
 	[
 		"tides-of-war"
