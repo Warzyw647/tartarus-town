@@ -3,6 +3,7 @@
 		"alignment" : "evil",
 		"creatureBackground" : { "120px" : "tartarus/creature-bg-120px.bmp", "130px" : "tartarus/creature-bg-130px.bmp" },
 		"name" : "Tartarus",
+		"boat" : "boatNecropolis",
 		"nativeTerrain" : "snow",
 		"puzzleMap" : {
 			"prefix" : "tartarus/puzzle-map/PUZTAR",
@@ -635,6 +636,7 @@
 			"guildWindow" : "tartarus/town-screen/mage-guild.bmp",
 			"hallBackground" : "TPTHBKDG",
 			"horde" : [ 0, 2 ],
+			"moatAbility" : "tartarusMoat",
 			"icons" : {
 				"village" : {
 					"normal" : {"small" : "tartarus/icons/hall-small.bmp", "large" : "tartarus/icons/hall-big.bmp" },
@@ -1070,7 +1072,6 @@
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "tartarus/town-screen/background.bmp",
 		"warMachine" : "ammoCart",
-		"moatDamage" : 90,
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
