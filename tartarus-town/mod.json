@@ -24,6 +24,13 @@
 			"translation/tartarus/chinese.json"
 		]
 	},
+    	"german" : {
+		"name" : "Tartarus",
+		"description" : "Tartarus, eine neue Stadt von Turbanellos (Ben YAN), ist eine neue Stadt für Eisdämonen. Veröffentlicht im Januar 2022.",
+		"translations" : [
+			"translation/tartarus/german.json"
+		]
+	},
 	"depends" :
 	[
 		"tides-of-war"
