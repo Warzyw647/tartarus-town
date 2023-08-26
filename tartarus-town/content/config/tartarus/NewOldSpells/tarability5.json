@@ -77,7 +77,7 @@
 					},
 					"defenceBoost" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 50,
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : [
@@ -113,7 +113,7 @@
 					},
 					"defenceBoost" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 50,
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : [
@@ -149,7 +149,7 @@
 					},
 					"defenceBoost" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 50,
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : [
@@ -185,7 +185,7 @@
 					},
 					"defenceBoost" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 50,
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : [
