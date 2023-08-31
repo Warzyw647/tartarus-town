@@ -1,8 +1,8 @@
 {
   "tartarcab": {
     "name": {
-      "plural": "Supreme Gelugons",
-      "singular": "Supreme Gelugon"
+      "plural": "Frozen Demons",
+      "singular": "Frozen Demon"
     },
     "advMapAmount": {
  "max" : 10,
@@ -48,8 +48,9 @@
     "abilities": {
        "immuneToWater" :
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2
+				"subtype" : 2,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
 			},
 		"castsAmount" :
 			{

@@ -46,13 +46,14 @@
     "abilities": {
        "immuneToWater" :
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2
+				"subtype" : 2,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
 			},
 		"regenerate" : 
 			{
 				"type" : "HP_REGENERATION",
-				"val" : 100000,
+				"val" : 35,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 		"caster": {

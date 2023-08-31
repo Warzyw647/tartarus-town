@@ -84,7 +84,7 @@
 	  "caster": {
         "type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.tarAbility1",
-				"val" : 30
+				"val" : 20
       }
     },
     "stackExperience" :

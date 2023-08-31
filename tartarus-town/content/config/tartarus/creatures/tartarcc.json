@@ -1,8 +1,8 @@
 {
   "tartarcc": {
     "name": {
-      "plural": "Ice Barons",
-      "singular": "Ice Baron"
+      "plural": "Devil Barons",
+      "singular": "Devil Baron"
     },
     "advMapAmount": {
  "max" : 10,
@@ -55,6 +55,11 @@
         "type": "FLYING",
         "subtype": 1
       },
+	  "manaChannel" :
+			{
+				"type" : "MANA_CHANNELING",
+				"val" : 20
+			},
       "extraRetaliation" :
 		{
 				"type" : "ADDITIONAL_RETALIATION",

@@ -4,7 +4,8 @@
 		"creatureBackground" : { "120px" : "tartarus/creature-bg-120px.bmp", "130px" : "tartarus/creature-bg-130px.bmp" },
 		"name" : "Tartarus",
 		"boat" : "boatNecropolis",
-		"nativeTerrain" : "snow",
+		"nativeTerrain" : "icelands",
+		"preferUndergroundPlacement": true,
 		"puzzleMap" : {
 			"prefix" : "tartarus/puzzle-map/PUZTAR",
 			"pieces" :
@@ -858,7 +859,8 @@
 					"area" : "tartarus/town-screen/buildings-area/TZTAmark",
 					"border" : "tartarus/town-screen/buildings-border/TOTAmark",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 2
 				},
 				"resourceSilo" :
 				{
@@ -867,7 +869,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTAsilo",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2
+					"z" : 3
 				},
 				"blacksmith" :
 				{
@@ -913,7 +915,7 @@
 					"border" : "tartarus/town-screen/buildings-border/TOTASPEC",
 					"x" : 0,
 					"y" : 0,
-					"z" : -1
+					"z" : 1
 				},
         "special2": {
           "animation": "tartarus/town-screen/buildings/TBTASpe2",
@@ -921,7 +923,7 @@
           "border": "tartarus/town-screen/buildings-border/TOTASpe2",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 4
         },
         	"horde2" :
 				{

@@ -3,7 +3,7 @@
     {
         "targetType" : "CREATURE",
         "type": "ability",
-        "name": "Ditch",
+        "name": "Icicle Spike",
         "school": {},
         "level": 0,
         "power": 0,

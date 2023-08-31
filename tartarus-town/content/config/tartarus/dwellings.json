@@ -9,7 +9,8 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA1",
-                        "mask" : ["VVV","VBV","VAB" ]
+                        "mask" : ["VVV","VBV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             },
@@ -20,7 +21,8 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA2",
-                        "mask" : [ "VVV", "VVV", "VAB" ]
+                        "mask" : [ "VVV", "VVV", "VAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             },
@@ -31,7 +33,8 @@
                 "templates" : {
                     "default" : {   
                         "animation" : "tartarus/map/dwellings/AVGTA3",
-                        "mask" : ["VVV","VBV","VAB" ]
+                        "mask" : ["VVV","VBV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             },
@@ -41,7 +44,8 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA4",
-                        "mask" : ["VVV","VVV","BAB" ]
+                        "mask" : ["VVV","VVV","BAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             },
@@ -54,7 +58,8 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA5",
-                        "mask" : [ "VVV","VVV","VAB" ]
+                        "mask" : [ "VVV","VVV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             },
@@ -67,7 +72,8 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA6",
-                        "mask" : ["VVV","VBB","VAB" ]
+                        "mask" : ["VVV","VBB","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             },
@@ -80,7 +86,8 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA7",
-                        "mask" : ["VVV","VVV","VAB" ]
+                        "mask" : ["VVV","VVV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
                     }
                 }
             }

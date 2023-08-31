@@ -1,0 +1,106 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ftIceBank" : 
+			{
+				"name" : "Quasit Cache",
+				"templates" : {
+					"base" : { "animation" : "tartarus/map/dwellings/ICEBANK.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVV", "VVV", "VBA" ],
+					"allowedTerrains":["snow","icelands"] 
+					}
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "tartarc1" },
+							{ "amount": 20, "type" : "tartarc1" },
+							{ "amount": 20, "type" : "tartarc1", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "tartarc1" },
+							{ "amount": 20, "type" : "tartarc1" }
+						],
+						"combat_value": 100,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 1000
+							}
+						}
+					},
+										
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 30, "type" : "tartarc1" },
+							{ "amount": 30, "type" : "tartarc1" },
+							{ "amount": 30, "type" : "tartarc1", "upgradeChance": 50 },
+							{ "amount": 30, "type" : "tartarc1" },
+							{ "amount": 30, "type" : "tartarc1" }
+						],
+						"combat_value": 150,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+							
+								"mercury" : 3,
+								"gold" : 1500
+							}
+						}
+					},
+					
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 40, "type" : "tartarc1" },
+							{ "amount": 40, "type" : "tartarc1" },
+							{ "amount": 40, "type" : "tartarc1", "upgradeChance": 50},
+							{ "amount": 40, "type" : "tartarc1" },
+							{ "amount": 40, "type" : "tartarc1" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+							
+								"mercury" : 4,
+								"gold" : 2000
+							}
+						}
+					},
+					
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 60, "type" : "tartarc1" },
+							{ "amount": 60, "type" : "tartarc1" },
+							{ "amount": 60, "type" : "tartarc1", "upgradeChance": 50 },
+							{ "amount": 60, "type" : "tartarc1" },
+							{ "amount": 60, "type" : "tartarc1" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"value": 6000,
+							"resources": 
+							{
+							
+								"mercury" : 6,
+								"gold" : 3000
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

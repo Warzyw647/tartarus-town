@@ -10,9 +10,9 @@
 			"biography" : "Allar was a very cunning and greedy magician. He was expelled in disgrace from Bracada when they learned that he was plotting against Gavin Magnus himself. Allar was not confused and believed that the Freegans could become excellent allies in his campaign for power and wealth.",
 			"specialty" :
 			{
-				"description" : "{+1 Gem}\r\n\r\nProvide 1 gem per day to your kingdom.",
-				"tooltip" : "+1 Gem",
-				"name" : "+1 Gem"
+				"description" : "{+1 Mercury}\r\n\r\nProvide 1 mercury per day to your kingdom.",
+				"tooltip" : "+1 Mercury",
+				"name" : "+1 Mercury"
 			}
 		},
 
@@ -58,7 +58,7 @@
 		"specialty" : {
 		"bonuses" : {
 			"gold" : {
-					"subtype" : "resource.gems",
+					"subtype" : "resource.mercury",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}

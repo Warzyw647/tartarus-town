@@ -1,8 +1,8 @@
 {
   "tartarcabe": {
     "name": {
-      "plural": "Gelugon Illusions",
-      "singular": "Gelugon Illusion"
+      "plural": "Frozen Illusions",
+      "singular": "Frozen Illusion"
     },
 	"special" : true,
     "advMapAmount": {
