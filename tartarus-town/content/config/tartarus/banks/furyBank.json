@@ -1,0 +1,104 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ftfuryBank" : 
+			{
+				"name" : "Bloody Tower",
+				"templates" : {
+					"base" : { "animation" : "tartarus/map/dwellings/SW_BMR.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVV", "VVV", "VVV", "VVA" ],
+					"allowedTerrains":["dirt","lava","subterra"] 
+					}
+				},
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "tartarc5" },
+							{ "amount": 15, "type" : "tartarc6" },
+							{ "amount": 10, "type" : "tidesofwar:creature.mdtSukkub"},
+							{ "amount": 10, "type" : "tidesofwar:creature.mdtLilim" }
+						],
+						"combat_value": 1000,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 3000,
+								"mercury" : 2,
+								"sulfur" : 2
+							}
+						}
+					},
+										
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "tartarc5" },
+							{ "amount": 20, "type" : "tartarc6" },
+							{ "amount": 15, "type" : "tidesofwar:creature.mdtSukkub"},
+							{ "amount": 15, "type" : "tidesofwar:creature.mdtLilim" }
+						],
+						"combat_value": 1000,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 4000,
+								"mercury" : 3,
+								"sulfur" : 3
+							}
+						}
+					},
+					
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 25, "type" : "tartarc5" },
+							{ "amount": 25, "type" : "tartarc6" },
+							{ "amount": 20, "type" : "tidesofwar:creature.mdtSukkub"},
+							{ "amount": 20, "type" : "tidesofwar:creature.mdtLilim" }
+						],
+						"combat_value": 1000,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 5000,
+								"mercury" : 5,
+								"sulfur" : 5
+							}
+						}
+					},
+					
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 30, "type" : "tartarc5" },
+							{ "amount": 30, "type" : "tartarc6" },
+							{ "amount": 25, "type" : "tidesofwar:creature.mdtSukkub"},
+							{ "amount": 25, "type" : "tidesofwar:creature.mdtLilim" }
+						],
+						"combat_value": 1000,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 6000,
+								"mercury" : 7,
+								"sulfur" : 7
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
