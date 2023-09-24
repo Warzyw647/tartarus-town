@@ -23,8 +23,8 @@
 						"guards": [
 							{ "amount": 15, "type" : "tartarc5" },
 							{ "amount": 15, "type" : "tartarc6" },
-							{ "amount": 10, "type" : "tidesofwar:creature.mdtSukkub"},
-							{ "amount": 10, "type" : "tidesofwar:creature.mdtLilim" }
+							{ "amount": 10, "type" : "tides-of-war.alternative-creatures:mdtSukkub"},
+							{ "amount": 10, "type" : "tides-of-war.alternative-creatures:mdtLilim" }
 						],
 						"combat_value": 1000,
 						"reward" : {
@@ -43,8 +43,8 @@
 						"guards": [
 							{ "amount": 20, "type" : "tartarc5" },
 							{ "amount": 20, "type" : "tartarc6" },
-							{ "amount": 15, "type" : "tidesofwar:creature.mdtSukkub"},
-							{ "amount": 15, "type" : "tidesofwar:creature.mdtLilim" }
+							{ "amount": 15, "type" : "tides-of-war.alternative-creatures:mdtSukkub"},
+							{ "amount": 15, "type" : "tides-of-war.alternative-creatures:mdtLilim" }
 						],
 						"combat_value": 1000,
 						"reward" : {
@@ -63,8 +63,8 @@
 						"guards": [
 							{ "amount": 25, "type" : "tartarc5" },
 							{ "amount": 25, "type" : "tartarc6" },
-							{ "amount": 20, "type" : "tidesofwar:creature.mdtSukkub"},
-							{ "amount": 20, "type" : "tidesofwar:creature.mdtLilim" }
+							{ "amount": 20, "type" : "tides-of-war.alternative-creatures:mdtSukkub"},
+							{ "amount": 20, "type" : "tides-of-war.alternative-creatures:mdtLilim" }
 						],
 						"combat_value": 1000,
 						"reward" : {
@@ -83,8 +83,8 @@
 						"guards": [
 							{ "amount": 30, "type" : "tartarc5" },
 							{ "amount": 30, "type" : "tartarc6" },
-							{ "amount": 25, "type" : "tidesofwar:creature.mdtSukkub"},
-							{ "amount": 25, "type" : "tidesofwar:creature.mdtLilim" }
+							{ "amount": 25, "type" : "tides-of-war.alternative-creatures:mdtSukkub"},
+							{ "amount": 25, "type" : "tides-of-war.alternative-creatures:mdtLilim" }
 						],
 						"combat_value": 1000,
 						"reward" : {
