@@ -92,7 +92,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -100,7 +100,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -108,7 +108,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -116,17 +116,10 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "earth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "EARTH_IMMUNITY"
-				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
 			},
 			{
 				"bonus" :

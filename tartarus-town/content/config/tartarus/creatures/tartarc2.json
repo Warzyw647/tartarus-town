@@ -59,7 +59,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
@@ -67,7 +67,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
@@ -75,7 +75,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -83,7 +83,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -99,7 +99,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 29 //"creature.masterGremlin"
+					"subtype" : "creature.masterGremlin"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 			},
@@ -107,7 +107,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 51 //"spell.fortune"
+					"subtype" : "spell.fortune"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
 			},

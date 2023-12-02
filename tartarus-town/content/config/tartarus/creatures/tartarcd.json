@@ -51,7 +51,7 @@
 	  "expertSlayer" : { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE"},
       "FLYING_ARMY": {
         "type": "FLYING",
-        "subtype": 1
+        "subtype": "movementTeleporting"
       },
 	  "teleportAllied" :
 			{
@@ -62,7 +62,6 @@
 			"spellpower" :
 			{
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "spell.tarability9",
 				"val" : 100
 			},
 			"spellpoints" :
@@ -86,7 +85,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -94,7 +93,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -102,15 +101,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -125,16 +116,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "fire"
 				},
 				"values" : [ false, false, true, true, true, true, true, true, true, true ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "EARTH_IMMUNITY",
-					"subtype" : 1
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "earth"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -148,8 +139,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "MIND_IMMUNITY",
-					"subtype" : 1
+					"type" : "MIND_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, true, true, true ]	
 			},
@@ -164,11 +154,11 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 59, //"spell.berserk"
+					"subtype" : "spell.berserk",
 					"addInfo" : [1, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
 			}
 		]
-  }	
-	}
+	}	
+}
