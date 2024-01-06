@@ -20,8 +20,8 @@
 		{
 			"specialtyLarge" : "tartarus/heroes/tarhero01/skill1.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero01/skills1.bmp",
-			"large" : "tartarus/heroes/tarhero01/tarH1.bmp",
-			"small" : "tartarus/heroes/tarhero01/tarH1S.bmp"
+			"large" : "tartarus/heroes/tarhero01/tarH1.png",
+			"small" : "tartarus/heroes/tarhero01/tarH1S.png"
 		},
 		
 

@@ -20,8 +20,8 @@
 		{
 			"specialtyLarge" : "tartarus/heroes/tarhero08/skill8.bmp",
 			"specialtySmall" : "tartarus/heroes/tarhero08/skills8.bmp",
-			"large" : "tartarus/heroes/tarhero08/tarH8.bmp",
-			"small" : "tartarus/heroes/tarhero08/tarH8S.bmp"
+			"large" : "tartarus/heroes/tarhero08/tarH8.png",
+			"small" : "tartarus/heroes/tarhero08/tarH8S.png"
 		},
 		
 		"spellbook" :
