@@ -10,7 +10,7 @@
 			"biography" : "The Gelugons have a very strict internal hierarchy. Nzistov was the oldest gelugon, who, among other things, had great magical power. Therefore, he was able to become the most important among these insect-like demons. The Gelugons under the command of Nzistov fight tirelessly to earn respect in the eyes of the elder.",
 			"specialty" :
 			{
-				"description" : "{Gelugons}\r\n\r\nIncreases the Attack and Defense skills of any Gelugons or Supreme Gelugons he commands for each level attainded after 6th level.",
+				"description" : "{Gelugons}\r\n\r\nIncreases the Attack and Defense skills of any Gelugons or Supreme Gelugons he commands for each level reached after 6th level.",
 				"tooltip" : "Creature bonus: Gelugons",
 				"name" : "Gelugons"
 			}
