@@ -12,18 +12,18 @@
  "max" : 25,
  "min" : 16
     },
-		"aiValue" : 1000,
+		"aiValue" : 156,
 		"attack" : 5,
 		"damage" :
 		{
-			 "max" : 10,
-			 "min" : 10
+			 "max" : 12,
+			 "min" : 6
 		},
 		"defense" : 5,
     "cost": {
       "gold": 140
     },
-		"fightValue" : 1000,
+		"fightValue" : 130,
 		"graphics" :
 		{
 			"animation" : "tartarus/battle/creatures/tcommander.def",
@@ -54,7 +54,7 @@
 			}
 		},
 		"growth" : 9,
-		"hitPoints" : 50,
+		"hitPoints" : 40,
 		"level" : 0,
 		"shots" : 24,
 		"sound" :
@@ -66,14 +66,10 @@
 			"shoot": "ENCHSHOT.wav",
 			"wince": "ENCHWNCE.wav"
  		},
-		"speed" : 5,
+		"speed" : 4,
 		"abilities" :
 		{
-		    "canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
-			"magicResistance" :
+		    "magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
@@ -98,10 +94,6 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bloodlust",
 				"val" : 3
-			},
-			"noMeleePenalty" :
-			{
-				"type" : "NO_MELEE_PENALTY"
 			}
 	    }
 	}
