@@ -37,17 +37,15 @@
     "horde": 8,
     "level": 1,
     "sound": {
-      "attack": "FMLRATTK.wav",
-			"defend": "FMLRDFND.wav",
-			"killed": "FMLRKILL.wav",
-			"move": "FMLRMOVE.wav",
-			"wince": "FMLRWNCE.wav"
+      "attack": "tartarus/TAR1ATTK.wav",
+      "defend": "tartarus/TAR1DFND.wav",
+      "killed": "tartarus/TAR1KILL.wav",
+      "move": "tartarus/TAR1MOVE.wav",
+	  "shoot":"tartarus/TAR1SHOT.wav",
+      "wince": "tartarus/TAR1WNCE.wav"
     },
-    "speed": 7,
+    "speed": 10,
     "abilities": {
-	"canFly": {
-        "type": "FLYING"
-      },
 	  "caster": {
         "type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.misfortune",
@@ -118,13 +116,6 @@
 					"subtype" : "spell.fortune"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
-			},
-			{	
-				"bonus" :
-				{
-					"type" : "FLYING"
-				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
 		]
     }
