@@ -27,7 +27,7 @@
 	"modType" : "Town",
     	"chinese" : {
 		"name" : "冰狱",
-		"description" : "冰狱",
+		"description" : "冰狱是另一位面的恶魔阵营。属于地狱的另一个分支。同时英雄带有恶魔血统，也可以加强地狱生物。",
 		"translations" : [
 			"translation/tartarus/chinese.json"
 		]
