@@ -9,7 +9,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "tartarus/map/dwellings/AVGTA1",
-                        "mask" : ["VVV","VBV","VAB" ],
+                        "mask" : ["VV","VA" ],
 						"allowedTerrains": ["snow","icelands"]
                     }
                 }
