@@ -48,6 +48,13 @@
 			"translation/tartarus/polish.json"
 		]
 	},
+	"russian" : {
+		"name" : "Тартарус",
+		"description" : "Новый город Тартарус — обитель ледяных демонов, выпущенный в январе 2022 года. Этот город выпущен со специальной картой «Люди в основном умирают зимой».",
+		"translations" : [
+			"translation/tartarus/russian.json"
+		]
+	},
 	"depends" :
 	[
 		"tides-of-war",
