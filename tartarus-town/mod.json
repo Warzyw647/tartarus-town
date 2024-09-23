@@ -3,9 +3,10 @@
 	"description" : "Tartarus is a town for ice demons, released in January 2022. This town is released with the dedicated map 'People mostly dies in winter'.",
 	"author" : "FF Team, mod : Turbanellos (Ben YAN)",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.39",
+	"version" : "1.40",
 	"changelog" :
 	{
+		"1.40"	 : [ "Enabled Bloody Tower creature bank.", "Updated PL and RU translations" ],
 		"1.39"	 : [ "Russian translation by Anton Sergeew." ],
 		"1.38"	 : [ "Updates the Ice cache and the map by Fabrice-TIERCELIN." ],
 		"1.37"	 : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
@@ -113,7 +114,8 @@
 	 "objects":
     [
 		"config/tartarus/dwellings.json",
-		"config/tartarus/banks/IceBank.json"
+		"config/tartarus/banks/IceBank.json",
+		"config/tartarus/banks/furyBank.json"
     ],
 	"spells" :
 	[

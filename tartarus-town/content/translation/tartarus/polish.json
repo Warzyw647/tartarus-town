@@ -242,5 +242,7 @@
     "spell.tartarus-town.tartarusMoatTrigger.name": "Kopać",
     "spell.tartarus-town.tartskill1.name": "Demoniczna Krew",
     "spell.tartarus-town.tartskill2.name": "Demoniczna Krew",
-    "spell.tartarus-town.tartskill3.name": "Demoniczna Krew"
+    "spell.tartarus-town.tartskill3.name": "Demoniczna Krew",
+    "mapObject.tartarus-town.creatureBank.ftIceBank.name": "Kryjówka Lodowych Pomiotów", 
+    "mapObject.tartarus-town.creatureBank.ftfuryBank.name": "Krwawa Baszta"
 }
